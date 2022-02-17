@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %} Home {% endblock title %}
+
+{% block content %}
+    <h1 class="Head">Currency Converter</h1>
+    <p>
+        <form action="#" method="post" class="info">
+            <label for="Amount">Enter Your Amount:</label>
+            <input type="number" id="Amount" name="Amount">
+            <select id="Currency1" name="Currency1">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="AUD">AUD</option>
+                <option value="JPY">JPY</option>
+                <option value="IDR">IDR</option>
+                <option value="BGN">BGN</option>
+                <option value="ILS">ILS</option>
+                <option value="GBD">GBD</option>
+                <option value="DKK">DKK</option>
+                <option value="CAD">CAD</option>
+                <option value="HUF">HUF</option>
+                <option value="RON">RON</option>
+                <option value="MYR">MYR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="HKD">HKD</option>
+                <option value="CHF">CHF</option>
+                <option value="KRW">KRW</option>
+                <option value="CNY">CNY</option>
+                <option value="TRY">TRY</option>
+                <option value="HRK">HRK</option>
+                <option value="NZD">NZD</option>
+                <option value="THB">THB</option>
+                <option value="NOK">NOK</option>
+                <option value="RUB">RUB</option>
+                <option value="INR">INR</option>
+                <option value="MXN">MXN</option>
+                <option value="CZK">CZK</option>
+                <option value="BRL">BRL</option>
+                <option value="PLN">PLN</option>
+                <option value="PHP">PHP</option>
+                <option value="ZAR">ZAR</option>
+            </select><br><br>
+
+            <label for="Currency2">Convert To:</label>
+            <select id="Currency2" name="Currency2">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="AUD">AUD</option>
+                <option value="JPY">JPY</option>
+                <option value="IDR">IDR</option>
+                <option value="BGN">BGN</option>
+                <option value="ILS">ILS</option>
+                <option value="GBD">GBD</option>
+                <option value="DKK">DKK</option>
+                <option value="CAD">CAD</option>
+                <option value="HUF">HUF</option>
+                <option value="RON">RON</option>
+                <option value="MYR">MYR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="HKD">HKD</option>
+                <option value="CHF">CHF</option>
+                <option value="KRW">KRW</option>
+                <option value="CNY">CNY</option>
+                <option value="TRY">TRY</option>
+                <option value="HRK">HRK</option>
+                <option value="NZD">NZD</option>
+                <option value="THB">THB</option>
+                <option value="NOK">NOK</option>
+                <option value="RUB">RUB</option>
+                <option value="INR">INR</option>
+                <option value="MXN">MXN</option>
+                <option value="CZK">CZK</option>
+                <option value="BRL">BRL</option>
+                <option value="PLN">PLN</option>
+                <option value="PHP">PHP</option>
+                <option value="ZAR">ZAR</option>
+            </select><br><br>
+            
+  <input type="submit">
+        </form>
+    </p>
+{% endblock content %}
